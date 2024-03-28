@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+.quiz-main {
+  background-color: blueviolet;
+  padding: 40px 20px;
+  height: 90vh;
+}
+.container {
+  margin-top: 200px;
+}
+.question-container {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+.quiz-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.submit-button {
+  height: 100px;
+  font-size: 20px;
+}
